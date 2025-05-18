@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #6AA2C3;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #5E5143;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+.aluno {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #444;
+    border-radius: 10px;
+    margin-top: 20x;
+    overflow: hidden; /* isso é importante pra bordas arredondadas funcionarem direitinho */
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+thead {
+    background-color: #AE6556;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #948E75;
+}
+
+a {
+    color: #AD5E7E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+tbody {
+    background-color: #CAC4AC;
+}
