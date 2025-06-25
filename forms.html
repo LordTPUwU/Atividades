@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Olá olá! Por favor, digite seu nome antes de começar o formulário :3</p>
+    <form>
+        <label for="fname">Nome:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <br>
+        <hr>
+        Muito bem, agora podemos começar o formulário!
+        <br><br><br>
+
+        <label for="fnick">Digite seu nickname:</label><br>
+        <input type="text" id="fnick" name="fnick"><br><br>
+
+
+        <label for="fgame">Qual seu jogo favorito?</label><br>
+        <input type="radio" id="overwatch" name="fav_language" value="Overwatch">
+        <label for="overwatch">Overwatch 2</label><br>
+        <input type="radio" id="fgo" name="fav_language" value="FGO">
+        <label for="fgo">FGO</label><br>
+        <input type="radio" id="minecraft" name="fav_language" value="Minecraft">
+        <label for="minecraft">Minecraft</label>
+        <br><br>
+
+
+        <label for="ftime">Qual o horário que você mais joga?</label><br>
+        <input type="time" id="ftime" name="ftime">
+        <br><br>
+
+        <label for="fplataform">Em qual plataforma você joga?</label><br>
+        <input type="checkbox" id="pc"
+        name="pc" value="PC">
+        <label for="pc">PC</label><br>
+        <input type="checkbox" id="console" name="console" value="Console">
+        <label for="console">Console</label><br>
+        <input type="checkbox" id="mobile" name="mobile" value="Mobile">
+        <label for="mobile">Mobile</label><br><br>
+
+        <label for="frank">Aceita partidas rankeadas?</label><br>
+        <input type="radio" id="rankyes" name="rank" value="Yes">
+        <label for="rankyes">Sim</label><br>
+        <input type="radio" id="rankno" name="rank" value="No">
+        <label for="rankno">Não</label><br><br>
+
+        <label for="rability">Qual seu nível de habilidade nos jogos em que joga?</label><br>
+        <input type="range" name="ability" id="ability"><br><br>
+
+        <label for="fmessage">Digite uma mensagem para seu futuro clã!</label>
+        <textarea name="fmessage" id="fmessage" rows="4" cols="40"></textarea><br><br>
+
+        <label for="fcor">Cor do clã:</label>
+        <input type="color" id="cor" name="cor"><br><br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
